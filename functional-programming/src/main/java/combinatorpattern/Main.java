@@ -13,7 +13,7 @@ public class Main {
                 .withEmail("alice@gmail.com")
                 .withGender(FEMALE)
                 .withPhoneNumber("+087878787878")
-                .withDOB(2017, MARCH, 4)
+                .withDOB(2000, MARCH, 4)
                 .build();
 
 //        System.out.println(new CustomerValidatorService().isValid(customer));
