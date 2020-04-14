@@ -1,8 +1,5 @@
 package com.matthem;
 
-import com.matthem.mortgage.MortgageCalculator;
-import com.matthem.mortgage.MortgageReport;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -42,17 +39,47 @@ public class Main {
 //        System.out.println(wage);
 
         //////// Mortgage ////////
-        int principal = (int) Console.readNumber("Principal ($1K - $1M): ", 1000, 1_000_000);
-        float annualInterest = (float) Console.readNumber("Annual Interest Rate: ", 1, 30);
-        byte years = (byte) Console.readNumber("Period (Years): ", 1, 30);
+//        int principal = (int) Console.readNumber("Principal ($1K - $1M): ", 1000, 1_000_000);
+//        float annualInterest = (float) Console.readNumber("Annual Interest Rate: ", 1, 30);
+//        byte years = (byte) Console.readNumber("Period (Years): ", 1, 30);
+//
+//        var calculator = new MortgageCalculator(principal, annualInterest, years);
+//
+//        var report = new MortgageReport(calculator);
+//        report.printMortgage();
+//        report.printPaymentSchedule();
+        ///////////////////////////
 
-        var calculator = new MortgageCalculator(principal, annualInterest, years);
-
-        var report = new MortgageReport(calculator);
-        report.printMortgage();
-        report.printPaymentSchedule();
-        /////////////////////////
+        //////// Inheritance ///////////
+//        var control = new TextBox();
+//        control.disable();
+//        System.out.println(control.isEnabled());
+//        var box1 = new TextBox();
+//        System.out.println(box1.toString());
+//        var textBox = new TextBox();
+//        textBox.setText("Hello World");
+//        System.out.println(textBox);
+//        var control = new UIControl(true);
+//        var textBox = new TextBox();
+//        show(control);
+//        var point1 = new Point(1, 2);
+//        var point2 = new Point(1, 2);
+//        System.out.println(point1.hashCode());
+//        System.out.println(point2.hashCode());
+        ///////// Polymorphism //////////
+//        UIControl[] controls = { new TextBox(), new CheckBox() };
+//        for (var control : controls)
+//            control.render();
+        ///////////////////////////////
+        ///////////////////////////////
     }
+
+//    public static void show(UIControl control) {
+//        if(control instanceof TextBox textBox) {
+//            textBox.setText("Hello World");
+//        }
+//        System.out.println(control);
+//    }
 
 //    public static int calculateWage(
 //            int baseSalary,

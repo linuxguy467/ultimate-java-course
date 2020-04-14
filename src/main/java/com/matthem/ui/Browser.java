@@ -1,4 +1,4 @@
-package com.matthem.models;
+package com.matthem.ui;
 
 public class Browser {
     public void navigate(String address) {
