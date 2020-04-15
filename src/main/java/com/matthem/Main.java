@@ -72,6 +72,27 @@ public class Main {
 //            control.render();
         ///////////////////////////////
         ///////////////////////////////
+        //////// Interfaces /////////////
+//        var calculator = new TaxCalculator2018(100_000);
+//        var report = new TaxReport();
+//        report.show(calculator);
+
+//        report.setCalculator(new TaxCalculator2019());
+//        report.show(new TaxCalculator2019());
+        ////////////////////////////////
+        ///////////// MyTube ///////////////
+//        var video = new Video();
+//        video.setFileName("birthday.mp4");
+//        video.setTitle("Jennifer's birthday");
+//        video.setUser(new User("john@domain.com"));
+//
+//        var processor = new VideoProcessor(
+//                new XVideoEncoder(),
+//                new SqlVideoDatabase(),
+//                new EmailService()
+//        );
+//        processor.process(video);
+        ////////////////////////////////////
     }
 
 //    public static void show(UIControl control) {
