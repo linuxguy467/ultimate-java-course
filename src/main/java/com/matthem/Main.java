@@ -1,5 +1,10 @@
 package com.matthem;
 
+import com.matthem.generics.GenericList;
+import com.matthem.generics.Instructor;
+import com.matthem.generics.User;
+import com.matthem.generics.Utils;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -93,6 +98,50 @@ public class Main {
 //        );
 //        processor.process(video);
         ////////////////////////////////////
+        ///////// Exceptions ///////////////
+//        try {
+//            ExceptionsDemo.show();
+//        } catch (Throwable e) {
+//            System.out.println("An unexpected error occurred.");
+//        }
+        ///////////////////////////////////
+        ///////// Generics ///////////////
+//        var list = new List();
+//        list.add(1);
+//        list.add("1");
+//        list.add(new User());
+//
+//        int number = (int)list.get(1);
+
+//        var list = new GenericList<Integer>();
+//        list.add(1);
+//        var number = list.get(0);
+/*
+        // int -> Integer
+        // float -> Float
+        // boolean -> Boolean
+
+        GenericList<Float> numbers = new GenericList<>();
+        numbers.add(1.2f); // Boxing
+        float number = numbers.get(0); // Unboxing*/
+
+//        new GenericList<User>();
+//        var user1 = new User(10);
+//        var user2 = new User(20);
+//        if(user1.compareTo(user2) < 0)
+//            System.out.println("user1 < user2");
+//        else if(user1.compareTo(user2) == 0)
+//            System.out.println("user1 == user2");
+//        else System.out.println("user1 > user2");
+//        var max = Utils.max(new User(10), new User(20));
+//        System.out.println(max);
+//        Utils.print(1, 10);
+//        User user = new Instructor(10);
+//        Utils.printUser(new Instructor(10));
+        var instructors = new GenericList<Instructor>();
+        Utils.printUsers(instructors);
+        Utils.printUsers(new GenericList<User>());
+        /////////////////////////////////
     }
 
 //    public static void show(UIControl control) {
