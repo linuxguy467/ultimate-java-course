@@ -154,6 +154,9 @@ public class Main {
 //        SetDemo.show();
 //        MapDemo.show();
         /////////////////////////////////
+        //////// Lambda Expressions and Functional Interfaces ////////
+//        LambdasDemo.show();
+        /////////////////////////////////////////////////////////////
     }
 }
 
