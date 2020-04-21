@@ -1,10 +1,5 @@
 package com.matthem;
 
-import com.matthem.generics.GenericList;
-import com.matthem.generics.Instructor;
-import com.matthem.generics.User;
-import com.matthem.generics.Utils;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -138,11 +133,29 @@ public class Main {
 //        Utils.print(1, 10);
 //        User user = new Instructor(10);
 //        Utils.printUser(new Instructor(10));
-        var instructors = new GenericList<Instructor>();
-        Utils.printUsers(instructors);
-        Utils.printUsers(new GenericList<User>());
+//        var instructors = new GenericList<Instructor>();
+//        Utils.printUsers(instructors);
+//        Utils.printUsers(new GenericList<User>());
+        /////////////////////////////////
+        ////////// Collections //////////
+//        var list = new GenericList<String>();
+//        list.add("a");
+//        list.add("b");
+//        for(var item : list)
+//            System.out.println(item);
+//        ListDemo.show();
+//        List<Customer> customers = new ArrayList<>();
+//        customers.add(new Customer("b", "e3"));
+//        customers.add(new Customer("a", "e2"));
+//        customers.add(new Customer("c", "e1"));
+//        customers.sort(new EmailComparator());
+//        System.out.println(customers);
+//        QueueDemo.show();
+//        SetDemo.show();
+//        MapDemo.show();
         /////////////////////////////////
     }
+}
 
 //    public static void show(UIControl control) {
 //        if(control instanceof TextBox textBox) {
@@ -158,4 +171,3 @@ public class Main {
 //    ) {
 //        return baseSalary + (extraHours * hourlyRate);
 //    }
-}
