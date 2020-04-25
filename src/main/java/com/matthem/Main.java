@@ -1,5 +1,7 @@
 package com.matthem;
 
+import com.matthem.concurrency.ThreadDemo;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -160,6 +162,11 @@ public class Main {
         //////////////////// Streams ////////////////////////////////
 //        StreamsDemo.show();
 //        CreatingStreamsDemo.show();
+        /////////////////////////////////////////////////////////////
+        //////////////////// Concurrency ////////////////////////////
+//        System.out.println(Thread.activeCount());
+//        System.out.println(Runtime.getRuntime().availableProcessors());
+        ThreadDemo.show();
         /////////////////////////////////////////////////////////////
     }
 }
